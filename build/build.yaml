@@ -13,7 +13,7 @@ steps:
   inputs:
     projects: src/FunctionApp.sln
     
-- script: 'npm install -g azure-functions-core-tools'
+- script: 'npm install azure-functions-core-tools'
 
 - task: DotNetCoreCLI@2
   displayName: Run Integration Tests
